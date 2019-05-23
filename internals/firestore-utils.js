@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import { firestore } from './firebase-config';
+import fs from "fs";
+import path from "path";
+import { firestore } from "./firebase-config";
 
-const FILE_EXTENSION_PATTERN = /\.([0-9a-z]+)(?=[?#])|(\.)(?:[\w]+)$/gmi;
+const FILE_EXTENSION_PATTERN = /\.([0-9a-z]+)(?=[?#])|(\.)(?:[\w]+)$/gim;
 
 export function getData(path) {
   const source = getPathObject(path);
@@ -22,7 +22,7 @@ export function saveData(data, path) {
 
 export function fetchDataFromFile(file) {
   return new Promise((resolve, reject) => {
-    fs.readFile(path.resolve(process.cwd(), file), 'utf8', (err, data) => {
+    fs.readFile(path.resolve(process.cwd(), file), "utf8", (err, data) => {
       if (err) reject(err);
       resolve(JSON.parse(data));
     });
@@ -31,26 +31,35 @@ export function fetchDataFromFile(file) {
 
 export function saveDataToFile(data, file) {
   return new Promise((resolve, reject) => {
-    fs.writeFile(path.resolve(process.cwd(), file), JSON.stringify(data), (err) => {
-      if (err) reject(err);
-      resolve(data);
-    });
+    fs.writeFile(
+      path.resolve(process.cwd(), file),
+      JSON.stringify(data),
+      err => {
+        if (err) reject(err);
+        resolve(data);
+      }
+    );
   });
 }
 
 export function fetchDataFromFirestore(collection, doc) {
   if (!doc) {
-    return firestore.collection(collection).get()
-      .then((snapshot) => {
+    return firestore
+      .collection(collection)
+      .get()
+      .then(snapshot => {
         const collectionData = {};
-        snapshot.forEach((doc) => {
+        snapshot.forEach(doc => {
           collectionData[doc.id] = doc.data();
         });
         return Promise.resolve(collectionData);
       });
   }
-  return firestore.collection(collection).doc(doc).get()
-    .then((document) => {
+  return firestore
+    .collection(collection)
+    .doc(doc)
+    .get()
+    .then(document => {
       return Promise.resolve(document.data());
     });
 }
@@ -64,25 +73,27 @@ export function saveDataToFirestore(data, collection, doc) {
     });
     return batch.commit();
   }
-  return firestore.collection(collection).doc(doc).set(data);
+  return firestore
+    .collection(collection)
+    .doc(doc)
+    .set(data);
 }
 
-
 export function getPathObject(params) {
-  const normalizedParams = params.replace(/\/$/, '');
+  const normalizedParams = params.replace(/\/$/, "");
   const paramsExtension = normalizedParams.match(FILE_EXTENSION_PATTERN);
 
   if (paramsExtension && paramsExtension[0]) {
     return {
-      file: normalizedParams,
+      file: normalizedParams
     };
-  } else if (normalizedParams.split('/').length % 2 !== 0) {
+  } else if (normalizedParams.split("/").length % 2 !== 0) {
     return {
-      collection: normalizedParams,
+      collection: normalizedParams
     };
   }
   return {
-    collection: normalizedParams.slice(0, normalizedParams.lastIndexOf('/')),
-    doc: normalizedParams.slice(normalizedParams.lastIndexOf('/') + 1),
+    collection: normalizedParams.slice(0, normalizedParams.lastIndexOf("/")),
+    doc: normalizedParams.slice(normalizedParams.lastIndexOf("/") + 1)
   };
 }

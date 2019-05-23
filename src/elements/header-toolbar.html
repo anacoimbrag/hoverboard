@@ -41,6 +41,7 @@
         height: 32px;
         background-color: var(--default-primary-color);
         transition: background-color var(--animation);
+        mask: url('/images/logo-monochrome.svg') no-repeat;
         -webkit-mask: url('/images/logo-monochrome.svg') no-repeat;
       }
 
@@ -149,7 +150,9 @@
         </paper-tab>
         {% endfor %}
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <paper-tab class="nav-item" link>
+          <a href="https://forms.gle/XYcfijaGEqAV11Co9" target="_blank" layout vertical center-center>Call4Papers</a>
+        </paper-tab>
 
         <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">

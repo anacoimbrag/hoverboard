@@ -1,15 +1,16 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
-  "analytics": "UA-43643469-9",
+  "url": "https://androidfestbh.web.app/",
+    "analytics": "UA-43643469-9",
   "prefix": "/",
   "firebase": {
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "apiKey": "AIzaSyBlkXq4mKOHcvcb9EW5ia5lflnf037Yol0",
+    "authDomain": "android-fest.firebaseapp.com",
+    "databaseURL": "https://android-fest.firebaseio.com",
+    "projectId": "android-fest",
+    "storageBucket": "android-fest.appspot.com",
+    "messagingSenderId": "407393212449",
+    "appId": "1:407393212449:web:a0a3e326012f0eaf"
   },
-  "googleMapApiKey": ""
+  "googleMapApiKey": "AIzaSyAF8cGEJERC9IuJFgk9gcbtfV0M08TJdvY"
 }
