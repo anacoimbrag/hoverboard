@@ -237,7 +237,9 @@
         const maxPrice = primaryTicket && primaryTicket.price;
         if (!ticket.regular || ticket.primary || ticket.soldOut || !maxPrice) return;
         const discount = 100 - parseInt(ticket.price) * 100 / parseInt(maxPrice);
-        return ((discount) => `{$ ticketsBlock.save $}`)(Math.round(discount));
+        if (discount > 0) {
+          return ((discount) => `{$ ticketsBlock.save $}`)(Math.round(discount));
+        } else return;
       }
 
       _onTicketTap(e) {

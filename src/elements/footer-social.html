@@ -49,7 +49,7 @@
       }
 
       .share-gplus  {
-        color: var(--gplus-color);
+        /* color: var(--gplus-color); */
       }
 
       .share-twitter {
@@ -73,18 +73,18 @@
         padding-top: 0;
       }
 
-      .email {
+      .email-social {
         margin-bottom: 20px;
-        width: 85px;
+        /* width: 85px; */
       }
 
-      .email .title {
+      .email-social .title {
         padding-right: 0;
         padding-top: 17px;
       }
 
-      .email a {
-        border-bottom: 1px solid var(--footer-text-color);
+      .email-social a {
+        /* border-bottom: 1px solid var(--footer-text-color); */
         padding-bottom: 1px;
       }
 
@@ -148,13 +148,13 @@
         <div class="share">
           <paper-icon-button
             class="share-gplus"
-            icon="hoverboard:gplus"
-            share="gplus"
+            icon="hoverboard:whatsapp"
+            share="whatsapp"
             on-tap="share"
             ga-on="click"
             ga-event-category="social"
             ga-event-action="share"
-            ga-event-label="gplus">
+            ga-event-label="whatsapp">
           </paper-icon-button>
         </div>
         <div class="share">
@@ -184,12 +184,12 @@
       </div>
     </div>
 
-    <div class="social-group blog">
+    <!-- <div class="social-group blog">
       <div class="title">
         {$ followOur $}
         <a href="{$ organizer.blog $}" target="_blank" rel="noopener noreferrer">{$ footer.blog $}</a>
       </div>
-    </div>
+    </div> -->
 
     <div class="social-group social-networks">
       <div class="title">{$ followUs $} </div>
@@ -210,7 +210,7 @@
       </ul>
     </div>
 
-    <div class="social-group email">
+    <div class="social-group email-social">
       <div class="title">
         <a aria-label="{$ emailUs $}" href="mailto:{$ mailto $}">{$ emailUs $}</a>
       </div>

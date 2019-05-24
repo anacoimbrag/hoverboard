@@ -98,15 +98,15 @@
     "short": "Belo Horizonte, MG",
     "address": "R. Matias Cardoso, 169 - 11º Andar - Santo Agostinho",
     "pointer": {
-      "latitude": -19.9329823,
-      "longitude": -43.9549194,
-      "zoom": 15
+      "latitude": -19.9330019,
+      "longitude": -43.952807,
+      "zoom": 16
     },
     "mapCenter": {
-      "latitude": -19.9329823,
-      "longitude": -43.9549194
+      "latitude": -19.9330019,
+      "longitude": -43.952807
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "MaxMilhas"
   },
   "mediaQueries": {
     "xs": {
@@ -144,6 +144,10 @@
       }
     ],
     "share": [
+      {
+        "name": "whatsapp",
+        "url": "https://wa.me/?text="
+      },
       {
         "name": "facebook",
         "url": "https://www.facebook.com/sharer.php?u="
@@ -185,7 +189,7 @@
   },
   "contentLoaders": {
     "schedule": {
-      "itemsCount": 2
+      "itemsCount": 1
     },
     "blog": {
       "itemsCount": 0

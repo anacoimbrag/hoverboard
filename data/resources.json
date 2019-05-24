@@ -5,9 +5,9 @@
   "keywords": "event, gdg, gde, android, google, programming, android, fest, developers, flutter, mobile, androiddev",
   "dates": "6 de Julho, 2019",
   "partnershipProposition": "https://bit.ly/dfua17-partners",
-  "share": "Compartilhar",
+  "share": "Compartilhe o evento",
   "followOur": "Siga",
-  "followUs": "Nos siga",
+  "followUs": "Siga nossas redes sociais",
   "emailUs": "Envie um email",
   "partnershipResources": "Parcerias",
   "eventResources": "Links",
@@ -95,27 +95,23 @@
       }
     },
     "statisticsBlock": {
-      "attendees": {
-        "label": "Attendees",
-        "number": "900"
+      "talks": {
+        "label": "Palestras",
+        "number": "10"
       },
-      "days": {
-        "label": "Days",
+      "workshops": {
+        "label": "Workshops",
         "number": "2"
       },
-      "sessions": {
-        "label": "Sessions",
-        "number": "50"
-      },
-      "tracks": {
-        "label": "Tracks",
-        "number": "4"
+      "hours": {
+        "label": "Horas de conteúdo",
+        "number": "8"
       }
     }
   },
   "ticketsBlock": {
     "title": "Ingressos",
-    "ticketsDetails": "Não perca a oportunidade de participar desse grande evento!",
+    "ticketsDetails": "Todos os ingressos dão direio a: Entrada + Coffee Break + Brindes",
     "soldOut": "Esgotado",
     "notAvailableYet": "Não iniciado",
     "save": "Desconto de ${discount}%"
@@ -170,13 +166,13 @@
     "saveSessionsSignedOut": "Entre para salvar as sessões"
   },
   "sessionDetails": {
-    "contentLevel": "Content level",
-    "viewPresentation": "View presentation",
-    "viewVideo": "View video",
-    "speakers": "Speakers"
+    "contentLevel": "Nível do conteúdo",
+    "viewPresentation": "Ver apresentação",
+    "viewVideo": "Ver vídeo",
+    "speakers": "Palestrante(s)"
   },
   "speakerDetails": {
-    "sessions": "Sessions"
+    "sessions": "Sessões"
   },
   "notifications": {
     "default": "Ativar notificações",
