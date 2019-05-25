@@ -28,13 +28,25 @@
       "logos": [
         {
           "order": 0,
-          "logoUrl": "../images/logos/google.svg",
+          "logoUrl": "../images/logos/max-milhas.svg",
           "name": "Max Milhas",
-          "url": "https://www.google.com.ua/intl/en/about/"
+          "url": "https://www.maxmilhas.com.br/"
         }
       ],
       "order": 1,
       "title": "Patrocinador Master"
+    },
+    {
+      "logos": [
+        {
+          "order": 0,
+          "logoUrl": "../images/logos/android-dev-br.svg",
+          "name": "Android Dev BR",
+          "url": "https://github.com/androiddevbr"
+        }
+      ],
+      "order": 2,
+      "title": "Apoio"
     }
   ],
   "schedule": {
