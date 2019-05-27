@@ -22,7 +22,7 @@
         }
       ],
       "order": 0,
-      "title": "Organizador"
+      "title": "Organização"
     },
     {
       "logos": [
@@ -43,6 +43,12 @@
           "logoUrl": "../images/logos/android-dev-br.svg",
           "name": "Android Dev BR",
           "url": "https://github.com/androiddevbr"
+        },
+        {
+          "order": 1,
+          "logoUrl": "../images/logos/android-bh.svg",
+          "name": "Android BH",
+          "url": "https://www.meetup.com/android-bh/"
         }
       ],
       "order": 2,
@@ -345,6 +351,7 @@
         },
         {
           "name": "Leone Perdigão",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/team%2Fleone_perdigao.png?alt=media&token=0b180eea-b316-413c-8949-9b0f2501aa24",
           "socials": [
             {
               "icon": "linkedin",
