@@ -3,7 +3,7 @@
     "name": "GDG BH",
     "twitter": "gdg_bh",
     "blog": "https://medium.com/gdg-lviv",
-    "url": "http://lviv.gdg.org.ua/"
+    "url": "https://twitter.com/gdg_bh"
   },
   "startDate": "2019-07-06T08:00:00-03:00",
   "endDate": "2019-07-06T18:00:00-03:00",
@@ -67,7 +67,7 @@
       "fontColor": "#424242"
     },
     "team": {
-      "title": "Organizadores",
+      "title": "Time",
       "metaDescription": "Saiba quem são as pessoas que fazem o evento acontecer.",
       "background": {
         "color": "#fff"
