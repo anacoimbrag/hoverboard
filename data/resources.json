@@ -47,7 +47,7 @@
         },
         {
           "name": "Conheça o time",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "url": "/team/",
           "newTab": true
         }
       ]
@@ -56,24 +56,9 @@
       "title": "Event Resources",
       "links": [
         {
-          "name": "Proposta de patrocínio",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
-          "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
-          "newTab": true
-        },
-        {
           "name": "Call for Papers",
           "url": "https://forms.gle/XYcfijaGEqAV11Co9",
           "newTab": true
-        },
-        {
-          "name": "FAQs",
-          "url": "/faq/",
-          "newTab": false
         }
       ]
     }

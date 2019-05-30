@@ -42,7 +42,7 @@
           "order": 0,
           "logoUrl": "../images/logos/android-dev-br.svg",
           "name": "Android Dev BR",
-          "url": "https://github.com/androiddevbr"
+          "url": "http://androiddevbr.org"
         },
         {
           "order": 1,
@@ -238,7 +238,7 @@
     }
   },
   "speakers": {
-    "aleksander_piotrowski": {
+    "nelson_glauber": {
       "badges": [
         {
           "description": "Android Google Developer Expert",
@@ -250,6 +250,8 @@
       "country": "Recife, Brasil",
       "featured": true,
       "name": "Nelson Glauber",
+      "company": "Mokriya",
+      "companyLogoUrl": "https://mokriya.com/wp-content/uploads/2017/09/mokriya-logo-blk.svg",
       "photoUrl": "https://dl.dropboxusercontent.com/s/o2xgv2zovs3tq4s/eu_2017.jpg",
       "shortBio": "Nelson Glauber é mestre em Engenharia de Software e trabalha com desenvolvimento de software desde 2002. Atua como engenheiro de software especializado em projetos mobile desde 2006, e com Android desde 2009. Em 2014, foi nomeado pelo Google como primeiro Developer Expert de Android da América Latina. É autor do livro \"Dominando o Android\" publicado pela Novatec.",
       "socials": [
@@ -279,8 +281,96 @@
           "name": "Site"
         }
       ],
-      "order": 1,
+      "order": 0,
       "title": "Google Developer Expert"
+    },
+    "walmyr_carvalho": {
+      "badges": [
+        {
+          "description": "Android Google Developer Expert",
+          "link": "https://developers.google.com/programs/experts/directory/",
+          "name": "gde"
+        },
+        {
+          "description": "Google Developers Group SP",
+          "link": "http://gdgsp.org/",
+          "name": "gdg"
+        }
+      ],
+      "bio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo. Já trabalhou para empresas como Loggi, 99, Cielo e é um dos Google Developer Experts de Android no Brasil.\n\nFora do trabalho, gosta de atuar ativamente em comunidades de tecnologia como organizador do GDG São Paulo e Kotlin Meetup São Paulo, além de ter criado o Android Dev BR, a maior comunidade brasileira de Android no Slack, com mais de 5.000 membros. Além disso, é mentor de startups no Google Developers Launchpad Accelerator e ACE Startups, aceleradora paulista também parceira do programa do Google.",
+      "country": "São Paulo, Brasil",
+      "featured": true,
+      "name": "Walmyr Carvalho",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fwalmyr_carvalho.jpg?alt=media&token=cc0340d5-ff6b-4da3-9c3c-68d5e0da474b",
+      "shortBio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo.",
+      "company": "Kusudama",
+      "companyLogo": "/images/logos/kasudama.svg",
+      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fkasudama.svg?alt=media&token=25dfec48-65bb-4bed-8e14-74ccdcd8cc76",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/walmyrcarvalho",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/walmyrcarvalho",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "website",
+          "link": "http://www.walmyrcarvalho.com.br",
+          "name": "Site"
+        }
+      ],
+      "order": 1,
+      "title": "Founder, Developer, Designer"
+    },
+    "rodrigo_castro": {
+      "badges": [
+        {
+          "description": "Google Developers Group SP",
+          "link": "http://gdgsp.org/",
+          "name": "gdg"
+        }
+      ],
+      "bio": "Rodrigo Castro é graduado em Sistemas de Informação pela UFMS. Tem 5 anos de experiência com Android e atualmente trabalha como Desenvolvedor Android na Concrete. Sempre busca conhecimento (ET Bilu) em boas práticas de programação e atualmente está apaixonado por Flutter. ",
+      "country": "São Paulo, Brasil",
+      "featured": true,
+      "name": "Rodrigo Castro",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Frodrigo_castro.jpg?alt=media&token=9521f6c0-97c6-4676-977e-ab7a7ab54cd2",
+      "shortBio": "Rodrigo Castro é graduado em Sistemas de Informação pela UFMS. Tem 5 anos de experiência com Android e atualmente trabalha como Desenvolvedor Android na Concrete. Sempre busca conhecimento (ET Bilu) em boas práticas de programação e atualmente está apaixonado por Flutter. ",
+      "company": "Concrete",
+      "companyLogoUrl": "https://www.concrete.com.br/public/6c6d6877c0b8671c1aac52febc18927f.svg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/rodrigocastro_o",
+          "name": "Twitter"
+        },
+        {
+          "icon": "instagram",
+          "link": "https://www.instagram.com/rodrigocastro_o/",
+          "name": "Instagram"
+        },
+        {
+          "icon": "github",
+          "link": "https://www.github.com/castrors/",
+          "name": "Github"
+        },
+        {
+          "icon": "facebook",
+          "link": "https://www.facebook.com/rodrigodesouzacastro",
+          "name": "Facebook"
+        },
+        {
+          "icon": "website",
+          "link": "http://castrors.github.io/",
+          "name": "Site"
+        }
+      ],
+      "order": 2,
+      "title": "Desenvolvedor Android"
     }
   },
   "team": [
@@ -402,6 +492,7 @@
         },
         {
           "name": "Valéria França",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/team%2Fvaleria_franca.jpeg?alt=media&token=682bb46a-717c-4da1-9f72-56fb7e8fa52b",
           "socials": [
             {
               "icon": "linkedin",
@@ -412,11 +503,6 @@
               "icon": "twitter",
               "link": "https://twitter.com/valwebti",
               "name": "Twitter"
-            },
-            {
-              "icon": "github",
-              "link": "https://github.com/Valweb",
-              "name": "Github"
             }
           ],
           "order": 0,
@@ -429,6 +515,7 @@
       "members": [
         {
           "name": "Walmyr Carvalho",
+          "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fwalmyr_carvalho.jpg?alt=media&token=cc0340d5-ff6b-4da3-9c3c-68d5e0da474b",
           "socials": [
             {
               "icon": "linkedin",
@@ -500,6 +587,6 @@
   ],
   "triggers": {
     "images": false
-  },
+   },
   "videos": []
 }
