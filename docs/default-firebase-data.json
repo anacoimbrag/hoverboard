@@ -344,6 +344,11 @@
       "companyLogoUrl": "https://www.concrete.com.br/public/6c6d6877c0b8671c1aac52febc18927f.svg",
       "socials": [
         {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/castrodev/",
+          "name": "Linkedin"
+        },
+        {
           "icon": "twitter",
           "link": "https://twitter.com/rodrigocastro_o",
           "name": "Twitter"
@@ -550,39 +555,13 @@
       "available": true,
       "inDemand": true,
       "currency": "R$",
-      "ends": "09 Junho",
-      "info": "",
-      "name": "Lote 1",
-      "price": 80,
-      "soldOut": false,
-      "starts": "27 Maio",
-      "url": "https://2event.com/events/1027108"
-    },
-    {
-      "available": false,
-      "currency": "R$",
-      "ends": "23 Junho",
-      "inDemand": false,
-      "info": "",
-      "name": "Lote 2",
-      "price": 120,
-      "regular": true,
-      "soldOut": false,
-      "starts": "10 Junho",
-      "url": "https://2event.com/events/1027108"
-    },
-    {
-      "available": false,
-      "currency": "R$",
       "ends": "05 Julho",
-      "inDemand": false,
-      "info": "",
-      "name": "Lote 3",
-      "price": 160,
-      "regular": true,
+      "info": "Entrada + Coffee Break + Brindes",
+      "name": "Lote 1",
+      "price": 50,
       "soldOut": false,
-      "starts": "24 Junho",
-      "url": "https://2event.com/events/1027108"
+      "starts": "03 Junho",
+      "url": "https://www.sympla.com.br/android-fest-belo-horizonte-2019__547107"
     }
   ],
   "triggers": {
