@@ -552,15 +552,27 @@
   ],
   "tickets": [
     {
+      "available": false,
+      "inDemand": false,
+      "currency": "R$",
+      "ends": "05 Junho",
+      "info": "Entrada + Coffee Break + Brindes",
+      "name": "Lote 1",
+      "price": 50,
+      "soldOut": true,
+      "starts": "03 Junho",
+      "url": "https://www.sympla.com.br/android-fest-belo-horizonte-2019__547107"
+    },
+    {
       "available": true,
       "inDemand": true,
       "currency": "R$",
       "ends": "05 Julho",
       "info": "Entrada + Coffee Break + Brindes",
-      "name": "Lote 1",
-      "price": 50,
+      "name": "Lote 2",
+      "price": 60,
       "soldOut": false,
-      "starts": "03 Junho",
+      "starts": "05 Junho",
       "url": "https://www.sympla.com.br/android-fest-belo-horizonte-2019__547107"
     }
   ],
