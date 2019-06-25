@@ -238,6 +238,82 @@
     }
   },
   "speakers": {
+    "ana_silva": {
+      "bio": "Desenvolvedora, atuo com Android há 6 anos. Organizo as DroidTalks em Belo Horizonte, meetups voltados ao desenvolvimento Android. Atualmente sou Consultora Desenvolvedora Mobile Sênior na ThoughtWorks BH.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Ana Silva",
+      "company": "ThoughtWorks",
+      "companyLogoUrl": "https://www.thoughtworks.com/imgs/tw-logo.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fana_silva.jpg?alt=media&token=bfa80671-a9f3-4e77-b208-cb68dc40afc3",
+      "shortBio": "Desenvolvedora, atuo com Android há 6 anos. Organizo as DroidTalks em Belo Horizonte, meetups voltados ao desenvolvimento Android. Atualmente sou Consultora Desenvolvedora Mobile Sênior na ThoughtWorks BH.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/anapsil83",
+          "name": "Twitter"
+        }
+      ],
+      "order": 0,
+      "title": "Consultora Desenvolvedora Mobile Sênior"
+    },
+    "bruno_libero": {
+      "bio": "Analista de Sistemas na Prodemge e Professor IGTI mora em Belo Horizonte especialista em tecnologias Google como Android, Angular, Flutter, Kotlin, Material Design, Google Maps e também outras tecnologias como Java, Spring, React Native e PHP. Formou-se em Ciência da Computação é pós-graduado em Redes de Computadores e atualmente está cursando mestrado em Engenharia de Software.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Bruno de Líbero Hauck Ferreira",
+      "company": "IGTI",
+      "companyLogoUrl": "https://www.prodemge.gov.br/images/logo_prodemge/logo_prodemge.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fbruno_hauk.jpg?alt=media&token=c2efe961-e7fa-4afc-a3ca-3d5365652e98",
+      "shortBio": "Analista de Sistemas na Prodemge e Professor IGTI mora em Belo Horizonte especialista em tecnologias Google como Android, Angular, Flutter, Kotlin, Material Design, Google Maps e também outras tecnologias como Java, Spring, React Native e PHP.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "http://www.linkedin.com/in/bruno-hauck",
+          "name": "Linkedin"
+        }
+      ],
+      "order": 1,
+      "title": "Analista de Sistemas"
+    },
+    "diogo_cabral": {
+      "bio": "Em curtas palavras, uma pessoa curiosa quando o tema é tecnologia. Passando por diversas áreas na minha jornada profissional, já fui do desenvolvimento back-end ao front-end, mas tendo também meus devaneios pelo universo mobile! Sempre gostei de compartilhar e absorver conhecimento de várias formas diferentes e atualmente faço isso sendo Consultor de Desenvolvimento Mobile pela ThoughtWorks.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Diogo Cabral",
+      "company": "ThoughtWorks",
+      "companyLogoUrl": "https://www.thoughtworks.com/imgs/tw-logo.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fdiogo_cabral.jpeg?alt=media&token=52a4872a-ee66-447c-b984-71469b65abc9",
+      "shortBio": "Em curtas palavras, uma pessoa curiosa quando o tema é tecnologia. Passando por diversas áreas na minha jornada profissional, já fui do desenvolvimento back-end ao front-end, mas tendo também meus devaneios pelo universo mobile!",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/DrCabrales",
+          "name": "Twitter"
+        }
+      ],
+      "order": 0,
+      "title": "Consultor Desenvolvedor Mobile"
+    },
+    "felipe_arimateia": {
+      "bio": "Atualmente sou Head of Mobile na MaxMilhas, já trabalhei em grandes aplicações mobile para clientes nacionais e internacionais. Nos últimos anos, especializei-me na plataforma Android, dando cursos e palestras.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": true,
+      "name": "Felipe Arimateia",
+      "company": "MaxMilhas",
+      "companyLogoUrl": "../images/logos/max-milhas.svg",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Ffelipe_arimateia.jpg?alt=media&token=bed9fa8e-4104-4ed7-bcf9-fabcd3416193",
+      "shortBio": "Atualmente sou Head of Mobile na MaxMilhas, já trabalhei em grandes aplicações mobile para clientes nacionais e internacionais. Nos últimos anos, especializei-me na plataforma Android, dando cursos e palestras.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/felipearimateia/",
+          "name": "Linkedin"
+        }
+      ],
+      "order": 0,
+      "title": "Head of Mobile"
+    },
     "nelson_glauber": {
       "badges": [
         {
@@ -283,48 +359,6 @@
       ],
       "order": 0,
       "title": "Google Developer Expert"
-    },
-    "walmyr_carvalho": {
-      "badges": [
-        {
-          "description": "Android Google Developer Expert",
-          "link": "https://developers.google.com/programs/experts/directory/",
-          "name": "gde"
-        },
-        {
-          "description": "Google Developers Group SP",
-          "link": "http://gdgsp.org/",
-          "name": "gdg"
-        }
-      ],
-      "bio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo. Já trabalhou para empresas como Loggi, 99, Cielo e é um dos Google Developer Experts de Android no Brasil.\n\nFora do trabalho, gosta de atuar ativamente em comunidades de tecnologia como organizador do GDG São Paulo e Kotlin Meetup São Paulo, além de ter criado o Android Dev BR, a maior comunidade brasileira de Android no Slack, com mais de 5.000 membros. Além disso, é mentor de startups no Google Developers Launchpad Accelerator e ACE Startups, aceleradora paulista também parceira do programa do Google.",
-      "country": "São Paulo, Brasil",
-      "featured": true,
-      "name": "Walmyr Carvalho",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fwalmyr_carvalho.jpg?alt=media&token=cc0340d5-ff6b-4da3-9c3c-68d5e0da474b",
-      "shortBio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo.",
-      "company": "Kusudama",
-      "companyLogo": "/images/logos/kasudama.svg",
-      "companyLogoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fkasudama.svg?alt=media&token=25dfec48-65bb-4bed-8e14-74ccdcd8cc76",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/walmyrcarvalho",
-          "name": "Twitter"
-        },
-        {
-          "icon": "linkedin",
-          "link": "https://www.linkedin.com/in/walmyrcarvalho",
-          "name": "LinkedIn"
-        },
-        {
-          "icon": "website",
-          "link": "http://www.walmyrcarvalho.com.br",
-          "name": "Site"
-        }
-      ],
-      "order": 1,
-      "title": "Founder, Developer, Designer"
     },
     "rodrigo_castro": {
       "badges": [
@@ -376,6 +410,95 @@
       ],
       "order": 2,
       "title": "Desenvolvedor Android"
+    },
+    "salem_afonso": {
+      "bio": "Desenvolvedor Android a 5 anos, já tive a oportunidade de trabalhar em grandes empresas e participar de projetos dos mais variados tipos. Atualmente sou Consultor Desenvolvedor Mobile Sênior na ThoughtWorks BH.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Salem Afonso",
+      "company": "ThoughtWorks",
+      "companyLogoUrl": "https://www.thoughtworks.com/imgs/tw-logo.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fsalem_afonso.jpg?alt=media&token=0a9b59d1-2dd8-45b1-a3b5-8e2256e88575",
+      "shortBio": "Desenvolvedor Android a 5 anos, já tive a oportunidade de trabalhar em grandes empresas e participar de projetos dos mais variados tipos. Atualmente sou Consultor Desenvolvedor Mobile Sênior na ThoughtWorks BH.",
+      "socials": [
+      ],
+      "order": 1,
+      "title": "Consultor Desenvolvedor Mobile Sênior"
+    },
+    "thulio_gomes": {
+      "bio": "UX researcher, facilitador de SPRINT 2.0, entusiasta de novas tecnologias e inquietamente criativo!",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Thulio Gomes",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fthulio_gomes.jpeg?alt=media&token=0480bb26-3e84-4d02-a5c0-10b87350b0dc",
+      "shortBio": "UX researcher, facilitador de SPRINT 2.0, entusiasta de novas tecnologias e inquietamente criativo!",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "http://www.linkedin.com/in/thuliocomh",
+          "name": "Linkedin"
+        }
+      ],
+      "order": 1,
+      "title": "UX researcher"
+    },
+    "virgilho_magalhaes": {
+      "bio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar. Possui considerável experiência no desenvolvimento de aplicativos financeiros. Foi o responsável por organizar o Kotlin Night '18, Google I/O Extended '19 e apoiar o NASA Space Apps em Brasília. Além de atuar na área de tecnologia é DJ e facilitador de Constelações Familiares.",
+      "country": "Brasília, Brasil",
+      "featured": false,
+      "name": "Virgílio Magalhães",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fvirgilho_solano.jpg?alt=media&token=f90fb585-ab71-4890-a40f-c7695e0b8d1f",
+      "shortBio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/virgiliosolano",
+          "name": "Linkedin"
+        }
+      ],
+      "order": 1,
+      "title": "Desenvolvedor Android"
+    },
+    "walmyr_carvalho": {
+      "badges": [
+        {
+          "description": "Android Google Developer Expert",
+          "link": "https://developers.google.com/programs/experts/directory/",
+          "name": "gde"
+        },
+        {
+          "description": "Google Developers Group SP",
+          "link": "http://gdgsp.org/",
+          "name": "gdg"
+        }
+      ],
+      "bio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo. Já trabalhou para empresas como Loggi, 99, Cielo e é um dos Google Developer Experts de Android no Brasil.\n\nFora do trabalho, gosta de atuar ativamente em comunidades de tecnologia como organizador do GDG São Paulo e Kotlin Meetup São Paulo, além de ter criado o Android Dev BR, a maior comunidade brasileira de Android no Slack, com mais de 5.000 membros. Além disso, é mentor de startups no Google Developers Launchpad Accelerator e ACE Startups, aceleradora paulista também parceira do programa do Google.",
+      "country": "São Paulo, Brasil",
+      "featured": true,
+      "name": "Walmyr Carvalho",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fwalmyr_carvalho.jpg?alt=media&token=cc0340d5-ff6b-4da3-9c3c-68d5e0da474b",
+      "shortBio": "Walmyr Carvalho é desenvolvedor Android há 9 anos, mobile designer e fundador da Kusudama, um estúdio de design e desenvolvimento de produtos digitais para mobile localizado em São Paulo.",
+      "company": "Kusudama",
+      "companyLogoUrl": "../images/logos/kusudama.svg",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/walmyrcarvalho",
+          "name": "Twitter"
+        },
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/walmyrcarvalho",
+          "name": "LinkedIn"
+        },
+        {
+          "icon": "website",
+          "link": "http://www.walmyrcarvalho.com.br",
+          "name": "Site"
+        }
+      ],
+      "order": 1,
+      "title": "Founder, Developer, Designer"
     }
   },
   "team": [
@@ -579,5 +702,24 @@
   "triggers": {
     "images": false
    },
-  "videos": []
+  "videos": [],
+  "_comment": {
+    "matheus_faleiro": {
+      "bio": "I am working with cross-functional teams in software development for five years. Currently, as Android Developer at ArcTouch, I am improving their products and services by using native Android development, code control systems and unit / instrumented tests through Agile Methodologies like Scrum, Kanban, XP, Lean and DevOps.",
+      "country": "Florianópolis, Brasil",
+      "featured": false,
+      "name": "Matheus Faleiro",
+      "photoUrl": "",
+      "shortBio": "I am working with cross-functional teams in software development for five years.",
+      "socials": [
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/theuzfaleiro",
+          "name": "Twitter"
+        }
+      ],
+      "order": 1,
+      "title": "Android Developer"
+    }
+  }
 }
