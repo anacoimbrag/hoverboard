@@ -81,7 +81,7 @@
           "endTime": "10:00",
           "sessions": [
             {
-              "items": [103]
+              "items": [113]
             }
           ],
           "startTime": "09:20"
@@ -90,11 +90,11 @@
           "endTime": "10:40",
           "sessions": [
             {
-              "items": [103]
+              "items": [117]
             },
             {
               "extend": 3,
-              "items": [104]
+              "items": [108]
             }
           ],
           "startTime": "10:00"
@@ -103,16 +103,16 @@
           "endTime": "11:20",
           "sessions": [
             {
-              "items": [103]
+              "items": [114]
             }
           ],
           "startTime": "10:40"
-            },
-            {
+        },
+        {
           "endTime": "12:00",
           "sessions": [
             {
-              "items": [103]
+              "items": [110]
             }
           ],
           "startTime": "11:20"
@@ -130,11 +130,11 @@
           "endTime": "14:40",
           "sessions": [
             {
-              "items": [103]
+              "items": [111]
             },
             {
               "extend": 3,
-              "items": [104]
+              "items": [109]
             }
           ],
           "startTime": "14:00"
@@ -143,7 +143,7 @@
           "endTime": "15:20",
           "sessions": [
             {
-              "items": [103]
+              "items": [115]
             }
           ],
           "startTime": "14:40"
@@ -152,7 +152,7 @@
           "endTime": "16:00",
           "sessions": [
             {
-              "items": [103]
+              "items": [116]
             }
           ],
           "startTime": "15:20"
@@ -170,7 +170,7 @@
           "endTime": "17:10",
           "sessions": [
             {
-              "items": [103]
+              "items": [112]
             }
           ],
           "startTime": "16:30"
@@ -183,8 +183,8 @@
             }
           ],
           "startTime": "17:10"
-            }
-          ],
+        }
+      ],
       "tracks": [
         {
           "title": "Palco Principal"
@@ -235,9 +235,104 @@
       "description": "Encerramento do evento com sorteio de brindes e foto final.",
       "image": "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fbackgrounds%2Fclosing.jpg?alt=media&token=f02d014a-09ee-407e-88c7-b74093e00fed",
       "title": "Encerramento"
+    },
+    "108": {
+      "description": "Este não é um lá palestra teórica e nem um Talks  \"divertido\" de Design Thinking! Mas sim um momento extremamente prático, compartilhando cases de sucesso desse método que Googlers utilizam para validar e testar suas ideias e produtos.",
+      "language": "PT",
+      "title": "Workshop - Método SPRINT como ferramenta para testar seu app!",
+      "speakers": ["thulio_gomes"]
+    },
+    "109": {
+      "description": "Workshop de flutter",
+      "language": "PT",
+      "title": "Workshop - Flutter",
+      "speakers": ["rodrigo_castro"]
+    },
+    "110": {
+      "description": "Encontrar a arquitetura mais adequada para os problemas que enfrentamos como desenvolvedores Android ainda parece ser uma tarefa complicada. Essa palestra busca apresentar práticas recomendadas pelo Google e padrões que podemos aplicar em diferentes situações para garantir que estamos construindo uma arquitetura Android sólida, robusta e extensível.",
+      "language": "PT",
+      "title": "Modularizando Aplicações Android",
+      "speakers": ["ana_silva", "selem_afonso"]
+    },
+    "111": {
+      "description": "Palestra sobre como construir as interfaces no Flutter como funciona a renderização da telas e como utilizar os widgets componets do Flutter.",
+      "language": "PT",
+      "title": "Flutter widgets -  UI/UX",
+      "speakers": ["bruno_libero"]
+    },
+    "112": {
+      "description": "Nesta palestra você irá aprender o que é o Google Pay, quais são as formas de utilizar no dia a dia, suas principais funcionalidades, como é utilizado em diversos países, casos de sucesso e otimização no processo de compra, a arquitetura por trás de uma transação de pagamento e como integrar no seu aplicativo.",
+      "language": "PT",
+      "title": "Google Pay - How it Works",
+      "speakers": ["virgilio_magalhaes"]
+    },
+    "113": {
+      "description": "Quando pensamos em aprender ou nos aprofundar em alguma tecnologia nos deparamos com dois problemas: a grande quantidade de conteúdos a serem consumidos e a priorização do estudo desses conteúdos para que o aprendizado seja o mais linear possível. Com o Android não é diferente, pois a plataforma apresenta uma vasta gama de técnicas, ferramentas, formas de organizar seu código... e assim acabamos nos fazendo a mesma pergunta: como nos atualizar e continuar aprendendo enquanto as novidades continuam sendo lançadas? Nessa talk vamos mostrar o Android Roadmap 2019, um learning path criado de forma colaborativa, visando servir como um guia para quem deseja ampliar seus conhecimentos na área.",
+      "language": "PT",
+      "title": "Android way to pro - Roadmap 2019",
+      "speakers": ["diogo_cabral", "ana_coimbra"]
+    },
+    "114": {
+      "description": "Você sabia que alguns leitores de tela não conseguem lê uma simples data no formato brasileiro (dd/MM/YYYY) e que a pronúncia de siglas são dolorosas para quem depende dos leitores de tela? Nessa talk vou demonstrar para vocês como estamos resolvendo esses problemas no app da MaxMilhas e como podemos melhorar a acessibilidade de nossos produtos.",
+      "language": "PT",
+      "title": "Acessibilidade: o que não te contaram sobre o Content Description e Talkback",
+      "speakers": ["felipe_arimateia"]
+    },
+    "115": {
+      "description": "Em se tratando de testes unitários, sabemos que é essencial garantirmos a qualidade em todas as nossas camadas de arquitetura, inclusive nas que necessitam da JVM para existir. Para fazer testes em componentes que possuem tais dependências, o Google possui como ferramenta oficial o Robolectric: um framework de testes unitários que consegue prover implementações do Android SDK. Mas como essa magia acontece e nos faz ganhar tempo de desenvolvimento e pipeline? Nessa talk abordaremos o conceito de shadows -  o que elas fazem, como elas fazem e por que modificar ou extender o comportamento das classes do Android SDK é interessante.",
+      "language": "PT",
+      "title": "Robolectric e Shadow Now: Otimizando seus testes sob a JVM",
+      "speakers": ["marcela_souza"]
+    },
+    "116": {
+      "description": "",
+      "language": "PT",
+      "title": "Aplicações assíncronas no Android com Coroutines & Jetpack",
+      "speakers": ["nelson_glauber"]
+    },
+    "117": {
+      "description": "",
+      "language": "PT",
+      "title": "Palestra a definir",
+      "speakers": ["walmyr_carvalho"]
     }
   },
   "speakers": {
+    "ana_coimbra": {
+      "bio": "Mineira, cientista da computação pela PUC Minas e (quase) especialista em Design de Interação. Atualmente sou Líder de desenvolvimento na Kobe. Trabalho principalmente com Mobile e Web Front End, com foco em startups e produtos de inovação. Sou uma das organizadoras do FEMUG-MG, Android BH e também faço parte da moderação do Android Dev BR.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "company": "Kobe",
+      "companyLogoUrl": "https://kobe.io/wp-content/uploads/2018/07/favicon-1.png",
+      "name": "Ana Coimbra",
+      "shortBio": "Mineira, cientista da computação pela PUC Minas e (quase) especialista em Design de Interação. Atualmente sou Líder de desenvolvimento na Kobe. Trabalho principalmente com Mobile e Web Front End, com foco em startups e produtos de inovação. Sou uma das organizadoras do FEMUG-MG, Android BH e também faço parte da moderação do Android Dev BR.",
+      "photo": "/images/people/ana_coimbra.jpg",
+      "photoUrl": "https://lh3.googleusercontent.com/FKNMka7nQKfd1UcjPcRr9Afvu230Yk-mYOVo67H5lHxxV2yJrMsvssSV6zP1yyZUjcOEtdEGecGh4hTIfdvyzrl0cfw4Xrw1QMdDUCWggSssbbWzbCEpebBt21kQ35IeohkEn6iCN0iA4iDSVXZGoh3QXL3AFgVH1CAjzY0IQJLfAxAJ2UqsENnVv5ug3kCpSpBaf_BcgjvsNZqGVMtvf5aS_cRDEdaxfocULKZUVbDHDHt8bB-lmqTERsF1Ql1Cfz_Zir7YiWg_MPU6G0XMLjId4RBT0B4V35gfZYeLPM4GefXxD9NlC98S5Tu0TvhJZLfX4kIqnhaihsO0sxUKsOi5oKtZhduYT98fvy3oG_Q4QZnUbV0QsgJElGiKOgoaicW0c_SkyZtEXe8ESMWIFw9YOHsyYsDZXedu0zr3uhfI26513RZb6SWlE89AaenFN8_BMfezIPjizpvRu1dO9d9RdmQ4Q7V5bSsXdJOQiqqaCtjL4PtnBqGC_PeXWikLdMkeCh52RY9Cp-LGIZiwrgI-GVNNIsrCzHaF4mOg32UHLsSatvbErecfQzoN5chiGP59B9OgXu0gik7WdrebhlThVZaLiOqYcyk7abxBZReeVm9Yn6rrT64BiLC3pNPBG5GoEBbBAoSeeR8xvuvFoL3N1XHY1SW0=w386-h772-no",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/anacoimbrag/",
+          "name": "Linkedin"
+        },
+        {
+          "icon": "twitter",
+          "link": "https://twitter.com/anacoimbrag",
+          "name": "Twitter"
+        },
+        {
+          "icon": "github",
+          "link": "https://github.com/anacoimbrag",
+          "name": "Github"
+        },
+        {
+          "icon": "website",
+          "link": "http://anacoimbra.dev",
+          "name": "Site"
+        }
+      ],
+      "order": 0,
+      "title": "Android Dev Lead"
+    },
     "ana_silva": {
       "bio": "Desenvolvedora, atuo com Android há 6 anos. Organizo as DroidTalks em Belo Horizonte, meetups voltados ao desenvolvimento Android. Atualmente sou Consultora Desenvolvedora Mobile Sênior na ThoughtWorks BH.",
       "country": "Belo Horizonte, Brasil",
@@ -313,6 +408,24 @@
       ],
       "order": 0,
       "title": "Head of Mobile"
+    },
+    "marcela_souza": {
+      "bio": "Sou formada em Sistema de Informação pela UFMG e me apaixonei pela computação quando tinha 15 anos, no meu primeiro emprego em uma escola de informática. Lá escrevi minha primeira linha de código em Action Scrpit =P! Já me aventurei no universo startapeiro por 4 anos. Vivi um pouco de tudo que esse mundo de empreendedorismo tem para oferecer: trato com investidores, clientes, equipe. Programei, vendi, gerenciei. Com saudade da estabilidade,  trabalhei um tempo como analista no ramo automotivo mas a saudade do código bateu e voltei a viver de programar me encantando pelo universo mobile. Hoje faço parte de um projeto mobile nativo e gosto bastante de assuntos como arquitetura e testes para Android.",
+      "country": "Belo Horizonte, Brasil",
+      "featured": false,
+      "name": "Marcella Souza",
+      "company": "ThoughtWorks",
+      "companyLogoUrl": "https://www.thoughtworks.com/imgs/tw-logo.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fmarcella_souza.png?alt=media&token=8aaefa12-5cc5-4449-8fde-63dd043dd95b",
+      "shortBio": "Sou formada em Sistema de Informação pela UFMG e me apaixonei pela computação quando tinha 15 anos, no meu primeiro emprego em uma escola de informática. Lá escrevi minha primeira linha de código em Action Scrpit =P! Já me aventurei no universo startapeiro por 4 anos. Vivi um pouco de tudo que esse mundo de empreendedorismo tem para oferecer: trato com investidores, clientes, equipe. Programei, vendi, gerenciei. Com saudade da estabilidade,  trabalhei um tempo como analista no ramo automotivo mas a saudade do código bateu e voltei a viver de programar me encantando pelo universo mobile. Hoje faço parte de um projeto mobile nativo e gosto bastante de assuntos como arquitetura e testes para Android.",
+      "socials": [
+        {
+          "icon": "linkedin",
+          "link": "https://www.linkedin.com/in/marcellasouza/",
+          "name": "LinkedIn"
+        }
+      ],
+      "order": 0
     },
     "nelson_glauber": {
       "badges": [
@@ -411,17 +524,16 @@
       "order": 2,
       "title": "Desenvolvedor Android"
     },
-    "salem_afonso": {
+    "selem_afonso": {
       "bio": "Desenvolvedor Android a 5 anos, já tive a oportunidade de trabalhar em grandes empresas e participar de projetos dos mais variados tipos. Atualmente sou Consultor Desenvolvedor Mobile Sênior na ThoughtWorks BH.",
       "country": "Belo Horizonte, Brasil",
       "featured": false,
-      "name": "Salem Afonso",
+      "name": "Selem Afonso",
       "company": "ThoughtWorks",
       "companyLogoUrl": "https://www.thoughtworks.com/imgs/tw-logo.png",
       "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fsalem_afonso.jpg?alt=media&token=0a9b59d1-2dd8-45b1-a3b5-8e2256e88575",
       "shortBio": "Desenvolvedor Android a 5 anos, já tive a oportunidade de trabalhar em grandes empresas e participar de projetos dos mais variados tipos. Atualmente sou Consultor Desenvolvedor Mobile Sênior na ThoughtWorks BH.",
-      "socials": [
-      ],
+      "socials": [],
       "order": 1,
       "title": "Consultor Desenvolvedor Mobile Sênior"
     },
@@ -442,7 +554,7 @@
       "order": 1,
       "title": "UX researcher"
     },
-    "virgilho_magalhaes": {
+    "virgilio_magalhaes": {
       "bio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar. Possui considerável experiência no desenvolvimento de aplicativos financeiros. Foi o responsável por organizar o Kotlin Night '18, Google I/O Extended '19 e apoiar o NASA Space Apps em Brasília. Além de atuar na área de tecnologia é DJ e facilitador de Constelações Familiares.",
       "country": "Brasília, Brasil",
       "featured": false,
@@ -701,25 +813,6 @@
   ],
   "triggers": {
     "images": false
-   },
-  "videos": [],
-  "_comment": {
-    "matheus_faleiro": {
-      "bio": "I am working with cross-functional teams in software development for five years. Currently, as Android Developer at ArcTouch, I am improving their products and services by using native Android development, code control systems and unit / instrumented tests through Agile Methodologies like Scrum, Kanban, XP, Lean and DevOps.",
-      "country": "Florianópolis, Brasil",
-      "featured": false,
-      "name": "Matheus Faleiro",
-      "photoUrl": "",
-      "shortBio": "I am working with cross-functional teams in software development for five years.",
-      "socials": [
-        {
-          "icon": "twitter",
-          "link": "https://twitter.com/theuzfaleiro",
-          "name": "Twitter"
-        }
-      ],
-      "order": 1,
-      "title": "Android Developer"
-    }
-  }
+  },
+  "videos": []
 }
