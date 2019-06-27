@@ -305,7 +305,7 @@
     },
     "116": {
       "complexity": "Intermediário",
-      "description": "",
+      "description": "Para usufruir dos múltiplos núcleos existentes nos processadores dos smartphones atuais, podemos realizar chamadas assíncronas de modo a paralelizar o fluxo de execução da aplicação. Normalmente isso é feito por meio de threads e callbacks que acabam por adicionar uma complexidade ao código que pode comprometer sua leitura e manutenção. Nessa apresentação, veremos como utilizar a API de Coroutines do Kotlin em conjunto com diversas bibliotecas do Jetpack do Android de modo a implementar programação assíncrona forma simples e eficiente.",
       "language": "PT",
       "title": "Aplicações assíncronas no Android com Coroutines & Jetpack",
       "speakers": ["nelson_glauber"],
@@ -578,11 +578,13 @@
       "title": "UX researcher"
     },
     "virgilio_magalhaes": {
-      "bio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar. Possui considerável experiência no desenvolvimento de aplicativos financeiros. Foi o responsável por organizar o Kotlin Night '18, Google I/O Extended '19 e apoiar o NASA Space Apps em Brasília. Além de atuar na área de tecnologia é DJ e facilitador de Constelações Familiares.",
+      "bio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar. Possui considerável experiência no desenvolvimento de aplicativos financeiros. Foi o responsável por organizar o Kotlin Night '18, Google I/O Extended '19 e apoiar a organização do NASA Space Apps '18 em Brasília, além de atuar na área de tecnologia é facilitador de Constelações Familiares e DJ.",
       "country": "Brasília, Brasil",
       "featured": false,
       "name": "Virgílio Magalhães",
-      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fvirgilho_solano.jpg?alt=media&token=f90fb585-ab71-4890-a40f-c7695e0b8d1f",
+      "company": "Zup",
+      "companyLogoUrl": "../images/logos/zup.png",
+      "photoUrl": "https://firebasestorage.googleapis.com/v0/b/android-fest.appspot.com/o/speakers%2Fvirgilio_solano.jpg?alt=media&token=6a20e77c-dac1-4aad-8bf0-f3cae0b8636e",
       "shortBio": "Virgílio Magalhães é desenvolvedor Android há 6 anos, atuou em grandes projetos nacionais e internacionais, na maioria das vezes fazendo o jogo virar.",
       "socials": [
         {
