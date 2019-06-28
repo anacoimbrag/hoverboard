@@ -249,9 +249,9 @@
     },
     "109": {
       "complexity": "Iniciante",
-      "description": "Workshop de flutter",
+      "description": "Neste workshop iremos aprender flutter na prática: Dart, widgets, navegação entre telas e testes",
       "language": "PT",
-      "title": "Workshop - Flutter",
+      "title": "Workshop - Criando uma aplicação de controle financeiro em Flutter",
       "speakers": ["rodrigo_castro"],
       "tags": ["flutter", "mobile"]
     },
@@ -312,10 +312,10 @@
       "tags": ["kotlin", "architecture"]
     },
     "117": {
-      "complexity": "Iniciante",
-      "description": "",
+      "complexity": "Intermediário",
+      "description": "O Kotlin veio e veio para ficar! Já se passaram 3 anos desde o release 1.0 da linguagem e a cada ano ela só melhora! Com recursos incríveis como o suporte multiplataforma/nativo e coroutines oficialmente integrados, Kotlin é melhor dos mundos para profissionais Android, e isso só tende a ficar ainda melhor! \nMas como podemos aproveitar essa incrível evolução do Kotlin, sem ficar pra trás no que a linguagem pode oferecer? Nesse talk, vamos conhecer todas as novidades da versão 1.3.* da linguagem e como podemos utilizar os melhores recursos dela nos nossos projetos Android.",
       "language": "PT",
-      "title": "Palestra a definir",
+      "title": "Não é feitiçaria, é Kotlin! Novidades da linguagem para profissionais Android",
       "speakers": ["walmyr_carvalho"],
       "tags": ["kotlin"]
     }
